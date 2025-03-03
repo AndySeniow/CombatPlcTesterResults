@@ -1,0 +1,161 @@
+***************************************************
+*********Test on: 16-03-2025 14:34:40**********
+***************************************************
+-------------------------------------------------------------
+PLC Status : PLC is in RUN mode.
+PDU Lenght : 240
+-------------------------------------------------------------
+Paths to test:
+path: [S0, sT0, S1, sT1, S0]
+path: [S0, sT0, S1, sT3, S0]
+path: [S0, sT0, S1, sT2, S0]
+path: [S0, sT0, S1, sT5, S0]
+path: [S0, sT0, S1, sT4, S0]
+-------------------------------------------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+test for path: [S0, sT0, S1, sT1, S0]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-Start Time for reading and comparing outputs : 14:34:40.247
+-------------------------------------------------------------
+StateID: S0
+OutputName: A
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: 0
+OutputValueBeforeTimeCondition: 0
+OutputValueAfterTimeCondition: 0
+PLCvalue: 0
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: B
+OutputID: O1
+OutputStartAddress: 2
+OutputBitAddress: 0
+OutputInitialValue: 0
+OutputValueBeforeTimeCondition: 0
+OutputValueAfterTimeCondition: 0
+PLC value: 0
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: C
+OutputID: O2
+OutputStartAddress: 4
+OutputBitAddress: 0
+OutputInitialValue: 0
+OutputValueBeforeTimeCondition: 0
+OutputValueAfterTimeCondition: 0
+PLC value: 0
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: D
+OutputID: O3
+OutputStartAddress: 8
+OutputBitAddress: 0
+OutputInitialValue: 0
+OutputValueBeforeTimeCondition: 0
+OutputValueAfterTimeCondition: 0
+PLC value: 0
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: E
+OutputID: O4
+OutputStartAddress: 10
+OutputBitAddress: 0
+OutputInitialValue: 0
+OutputValueBeforeTimeCondition: 0
+OutputValueAfterTimeCondition: 0
+PLC value: 0
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: F
+OutputID: O5
+OutputStartAddress: 14
+OutputBitAddress: 0
+OutputInitialValue: 0.0
+OutputValueBeforeTimeCondition: 0.0
+OutputValueAfterTimeCondition: 0.0
+PLC value: 0.0
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 14:34:40.263
+-Start Time for writing inputs : 14:34:40.263
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT0
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 2
+Input Value: 101
+InputName: C
+Input Adress: 4
+Input Value: 100
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 14:34:40.278
+-Start wait cycletime * ScalingFactor : 14:34:40.278
+-End wait cycletime * ScalingFactor : 14:34:40.280
+-Start Time for reading and comparing outputs : 14:34:40.280
+-------------------------------------------------------------
+StateID: S1
+OutputName: A
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: 0
+OutputValueBeforeTimeCondition: 255
+OutputValueAfterTimeCondition: 0
+PLCvalue: 255
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S1
+OutputName: B
+OutputID: O1
+OutputStartAddress: 2
+OutputBitAddress: 0
+OutputInitialValue: 0
+OutputValueBeforeTimeCondition: 65535
+OutputValueAfterTimeCondition: 0
+PLC value: 65535
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S1
+OutputName: C
+OutputID: O2
+OutputStartAddress: 4
+OutputBitAddress: 0
+OutputInitialValue: 0
+OutputValueBeforeTimeCondition: 4294967295
+OutputValueAfterTimeCondition: 0
+PLC value: 4294967295
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S1
+OutputName: D
+OutputID: O3
+OutputStartAddress: 8
+OutputBitAddress: 0
+OutputInitialValue: 0
+OutputValueBeforeTimeCondition: 32767
+OutputValueAfterTimeCondition: 0
+PLC value: 32766
+PLC value not equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 14:34:40.294
+Test for this path failed at stateID: S1
+-------------------------------------------------------------

@@ -1,0 +1,1342 @@
+***************************************************
+*********Test on: 28-02-2025 13:38:08**********
+***************************************************
+-------------------------------------------------------------
+PLC Status : PLC is in RUN mode.
+PDU Lenght : 240
+-------------------------------------------------------------
+Paths to test:
+path: [S0, sT0, S1, sT1, S2, sT2, S3, sT4, S0, sT5, S0, sT6, S0, sT7, S0, sT8, S0, sT9, S0, sT10, S0, sT11, S0, sT12, S0, sT13, S0, sT14, S0, sT16, S0, sT17, S0, sT18, S0, sT19, S0, sT20, S0, sT21, S0, sT22, S0, sT24, S0, sT25, S0, sT26, S0, sT27, S0, sT28, S0, sT29, S0, sT30, S0, sT32, S0, sT33, S0, sT34, S0, sT35, S0]
+-------------------------------------------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+test for path: [S0, sT0, S1, sT1, S2, sT2, S3, sT4, S0, sT5, S0, sT6, S0, sT7, S0, sT8, S0, sT9, S0, sT10, S0, sT11, S0, sT12, S0, sT13, S0, sT14, S0, sT16, S0, sT17, S0, sT18, S0, sT19, S0, sT20, S0, sT21, S0, sT22, S0, sT24, S0, sT25, S0, sT26, S0, sT27, S0, sT28, S0, sT29, S0, sT30, S0, sT32, S0, sT33, S0, sT34, S0, sT35, S0]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-Start Time for reading and comparing outputs : 13:38:08.173
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.184
+-Start Time for writing inputs : 13:38:08.185
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT0
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.196
+-Start wait cycletime * ScalingFactor : 13:38:08.196
+-End wait cycletime * ScalingFactor : 13:38:08.198
+-Start Time for reading and comparing outputs : 13:38:08.198
+-------------------------------------------------------------
+StateID: S1
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: true
+OutputValueAfterTimeCondition: true
+PLCvalue: true
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.210
+-Start Time for writing inputs : 13:38:08.210
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT1
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.221
+-Start wait cycletime * ScalingFactor : 13:38:08.221
+-End wait cycletime * ScalingFactor : 13:38:08.223
+-Start Time for reading and comparing outputs : 13:38:08.223
+-------------------------------------------------------------
+StateID: S2
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: true
+OutputValueAfterTimeCondition: true
+PLCvalue: true
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.234
+-Start Time for writing inputs : 13:38:08.234
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT2
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.245
+-Start wait cycletime * ScalingFactor : 13:38:08.245
+-End wait cycletime * ScalingFactor : 13:38:08.247
+-Start Time for reading and comparing outputs : 13:38:08.247
+-------------------------------------------------------------
+StateID: S3
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: true
+OutputValueAfterTimeCondition: true
+PLCvalue: true
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.258
+-Start Time for writing inputs : 13:38:08.258
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT4
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.267
+-Start wait cycletime * ScalingFactor : 13:38:08.267
+-End wait cycletime * ScalingFactor : 13:38:08.269
+-Start Time for reading and comparing outputs : 13:38:08.269
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.279
+-Start Time for writing inputs : 13:38:08.279
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT5
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.293
+-Start wait cycletime * ScalingFactor : 13:38:08.293
+-End wait cycletime * ScalingFactor : 13:38:08.295
+-Start Time for reading and comparing outputs : 13:38:08.295
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.305
+-Start Time for writing inputs : 13:38:08.305
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT6
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.315
+-Start wait cycletime * ScalingFactor : 13:38:08.315
+-End wait cycletime * ScalingFactor : 13:38:08.317
+-Start Time for reading and comparing outputs : 13:38:08.317
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.328
+-Start Time for writing inputs : 13:38:08.328
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT7
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.340
+-Start wait cycletime * ScalingFactor : 13:38:08.340
+-End wait cycletime * ScalingFactor : 13:38:08.342
+-Start Time for reading and comparing outputs : 13:38:08.342
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.352
+-Start Time for writing inputs : 13:38:08.352
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT8
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.362
+-Start wait cycletime * ScalingFactor : 13:38:08.362
+-End wait cycletime * ScalingFactor : 13:38:08.364
+-Start Time for reading and comparing outputs : 13:38:08.364
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.373
+-Start Time for writing inputs : 13:38:08.373
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT9
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.383
+-Start wait cycletime * ScalingFactor : 13:38:08.383
+-End wait cycletime * ScalingFactor : 13:38:08.385
+-Start Time for reading and comparing outputs : 13:38:08.385
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.395
+-Start Time for writing inputs : 13:38:08.395
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT10
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.408
+-Start wait cycletime * ScalingFactor : 13:38:08.408
+-End wait cycletime * ScalingFactor : 13:38:08.410
+-Start Time for reading and comparing outputs : 13:38:08.410
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.420
+-Start Time for writing inputs : 13:38:08.420
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT11
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.432
+-Start wait cycletime * ScalingFactor : 13:38:08.432
+-End wait cycletime * ScalingFactor : 13:38:08.434
+-Start Time for reading and comparing outputs : 13:38:08.434
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.444
+-Start Time for writing inputs : 13:38:08.444
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT12
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.455
+-Start wait cycletime * ScalingFactor : 13:38:08.455
+-End wait cycletime * ScalingFactor : 13:38:08.457
+-Start Time for reading and comparing outputs : 13:38:08.457
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.469
+-Start Time for writing inputs : 13:38:08.469
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT13
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.482
+-Start wait cycletime * ScalingFactor : 13:38:08.482
+-End wait cycletime * ScalingFactor : 13:38:08.484
+-Start Time for reading and comparing outputs : 13:38:08.484
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.494
+-Start Time for writing inputs : 13:38:08.494
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT14
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.504
+-Start wait cycletime * ScalingFactor : 13:38:08.504
+-End wait cycletime * ScalingFactor : 13:38:08.506
+-Start Time for reading and comparing outputs : 13:38:08.506
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.515
+-Start Time for writing inputs : 13:38:08.515
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT16
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.529
+-Start wait cycletime * ScalingFactor : 13:38:08.529
+-End wait cycletime * ScalingFactor : 13:38:08.531
+-Start Time for reading and comparing outputs : 13:38:08.531
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.542
+-Start Time for writing inputs : 13:38:08.542
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT17
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.553
+-Start wait cycletime * ScalingFactor : 13:38:08.553
+-End wait cycletime * ScalingFactor : 13:38:08.555
+-Start Time for reading and comparing outputs : 13:38:08.555
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.566
+-Start Time for writing inputs : 13:38:08.566
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT18
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.575
+-Start wait cycletime * ScalingFactor : 13:38:08.575
+-End wait cycletime * ScalingFactor : 13:38:08.577
+-Start Time for reading and comparing outputs : 13:38:08.577
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.587
+-Start Time for writing inputs : 13:38:08.587
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT19
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.597
+-Start wait cycletime * ScalingFactor : 13:38:08.597
+-End wait cycletime * ScalingFactor : 13:38:08.599
+-Start Time for reading and comparing outputs : 13:38:08.599
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.612
+-Start Time for writing inputs : 13:38:08.612
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT20
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.623
+-Start wait cycletime * ScalingFactor : 13:38:08.623
+-End wait cycletime * ScalingFactor : 13:38:08.625
+-Start Time for reading and comparing outputs : 13:38:08.625
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.633
+-Start Time for writing inputs : 13:38:08.633
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT21
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.645
+-Start wait cycletime * ScalingFactor : 13:38:08.645
+-End wait cycletime * ScalingFactor : 13:38:08.647
+-Start Time for reading and comparing outputs : 13:38:08.647
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.658
+-Start Time for writing inputs : 13:38:08.658
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT22
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.668
+-Start wait cycletime * ScalingFactor : 13:38:08.668
+-End wait cycletime * ScalingFactor : 13:38:08.670
+-Start Time for reading and comparing outputs : 13:38:08.670
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.681
+-Start Time for writing inputs : 13:38:08.681
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT24
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.692
+-Start wait cycletime * ScalingFactor : 13:38:08.692
+-End wait cycletime * ScalingFactor : 13:38:08.694
+-Start Time for reading and comparing outputs : 13:38:08.694
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.706
+-Start Time for writing inputs : 13:38:08.706
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT25
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.718
+-Start wait cycletime * ScalingFactor : 13:38:08.718
+-End wait cycletime * ScalingFactor : 13:38:08.720
+-Start Time for reading and comparing outputs : 13:38:08.720
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.731
+-Start Time for writing inputs : 13:38:08.731
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT26
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.743
+-Start wait cycletime * ScalingFactor : 13:38:08.743
+-End wait cycletime * ScalingFactor : 13:38:08.745
+-Start Time for reading and comparing outputs : 13:38:08.745
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.755
+-Start Time for writing inputs : 13:38:08.755
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT27
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: false
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.765
+-Start wait cycletime * ScalingFactor : 13:38:08.765
+-End wait cycletime * ScalingFactor : 13:38:08.767
+-Start Time for reading and comparing outputs : 13:38:08.767
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.779
+-Start Time for writing inputs : 13:38:08.779
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT28
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.790
+-Start wait cycletime * ScalingFactor : 13:38:08.790
+-End wait cycletime * ScalingFactor : 13:38:08.792
+-Start Time for reading and comparing outputs : 13:38:08.792
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.803
+-Start Time for writing inputs : 13:38:08.803
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT29
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.813
+-Start wait cycletime * ScalingFactor : 13:38:08.813
+-End wait cycletime * ScalingFactor : 13:38:08.815
+-Start Time for reading and comparing outputs : 13:38:08.815
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.826
+-Start Time for writing inputs : 13:38:08.826
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT30
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.836
+-Start wait cycletime * ScalingFactor : 13:38:08.836
+-End wait cycletime * ScalingFactor : 13:38:08.838
+-Start Time for reading and comparing outputs : 13:38:08.838
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.847
+-Start Time for writing inputs : 13:38:08.847
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT32
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.861
+-Start wait cycletime * ScalingFactor : 13:38:08.861
+-End wait cycletime * ScalingFactor : 13:38:08.863
+-Start Time for reading and comparing outputs : 13:38:08.863
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.873
+-Start Time for writing inputs : 13:38:08.873
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT33
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.884
+-Start wait cycletime * ScalingFactor : 13:38:08.884
+-End wait cycletime * ScalingFactor : 13:38:08.886
+-Start Time for reading and comparing outputs : 13:38:08.886
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.897
+-Start Time for writing inputs : 13:38:08.897
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT34
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.908
+-Start wait cycletime * ScalingFactor : 13:38:08.908
+-End wait cycletime * ScalingFactor : 13:38:08.910
+-Start Time for reading and comparing outputs : 13:38:08.910
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.920
+-Start Time for writing inputs : 13:38:08.920
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT35
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 13:38:08.932
+-Start wait cycletime * ScalingFactor : 13:38:08.932
+-End wait cycletime * ScalingFactor : 13:38:08.934
+-Start Time for reading and comparing outputs : 13:38:08.934
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 13:38:08.945
+Test for this path passed:
+-------------------------------------------------------------
