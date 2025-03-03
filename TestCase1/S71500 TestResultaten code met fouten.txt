@@ -1,0 +1,71 @@
+***************************************************
+*********Test on: 03-03-2025 09:56:12**********
+***************************************************
+-------------------------------------------------------------
+PLC Status : PLC is in RUN mode.
+PDU Lenght : 480
+-------------------------------------------------------------
+Paths to test:
+path: [S0, sT0, S1, sT1, S2, sT2, S3, sT4, S0, sT5, S0, sT6, S0, sT7, S0, sT8, S0, sT9, S0, sT10, S0, sT11, S0, sT12, S0, sT13, S0, sT14, S0, sT16, S0, sT17, S0, sT18, S0, sT19, S0, sT20, S0, sT21, S0, sT22, S0, sT24, S0, sT25, S0, sT26, S0, sT27, S0, sT28, S0, sT29, S0, sT30, S0, sT32, S0, sT33, S0, sT34, S0, sT35, S0]
+-------------------------------------------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+test for path: [S0, sT0, S1, sT1, S2, sT2, S3, sT4, S0, sT5, S0, sT6, S0, sT7, S0, sT8, S0, sT9, S0, sT10, S0, sT11, S0, sT12, S0, sT13, S0, sT14, S0, sT16, S0, sT17, S0, sT18, S0, sT19, S0, sT20, S0, sT21, S0, sT22, S0, sT24, S0, sT25, S0, sT26, S0, sT27, S0, sT28, S0, sT29, S0, sT30, S0, sT32, S0, sT33, S0, sT34, S0, sT35, S0]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-Start Time for reading and comparing outputs : 09:56:12.850
+-------------------------------------------------------------
+StateID: S0
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 09:56:12.854
+-Start Time for writing inputs : 09:56:12.854
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT0
+InputName: A
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: B
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: C
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
+InputName: D
+Input Adress: 0
+Input BitAdress: 3
+Input Value: true
+InputName: E
+Input Adress: 0
+Input BitAdress: 4
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 09:56:12.857
+-Start wait cycletime * ScalingFactor : 09:56:12.857
+-End wait cycletime * ScalingFactor : 09:56:12.859
+-Start Time for reading and comparing outputs : 09:56:12.859
+-------------------------------------------------------------
+StateID: S1
+OutputName: X
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: true
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value not equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 09:56:12.861
+Test for this path failed at stateID: S1
+-------------------------------------------------------------
