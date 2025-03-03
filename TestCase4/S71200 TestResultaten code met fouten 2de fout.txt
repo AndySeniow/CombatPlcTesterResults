@@ -1,0 +1,504 @@
+***************************************************
+*********Test on: 09-03-2025 10:29:18**********
+***************************************************
+-------------------------------------------------------------
+PLC Status : PLC is in RUN mode.
+PDU Lenght : 240
+-------------------------------------------------------------
+Paths to test:
+path: [S0, sT79, S0, sT81, S0, sT82, S0, sT83, S0, sT84, S0, sT85, S0, sT86, S0]
+path: [S0, sT0, S1, sT1, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT3, S0]
+path: [S0, sT0, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT2, S1, sT1, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT3, S0]
+path: [S0, sT0, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT3, S0]
+path: [S0, sT0, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT2, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT3, S0]
+path: [S0, sT0, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT2, S1, sT1, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT1, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT2, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT2, S1, sT1, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT3, S0]
+path: [S0, sT0, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT1, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT1, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT2, S1, sT1, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT2, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT2, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT3, S0]
+path: [S0, sT0, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT1, S2, sT95, S2, sT96, S2, sT97, S2, sT98, S2, sT100, S2, sT101, S2, sT102, S2, sT2, S1, sT3, S0]
+-------------------------------------------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+test for path: [S0, sT79, S0, sT81, S0, sT82, S0, sT83, S0, sT84, S0, sT85, S0, sT86, S0]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-Start Time for reading and comparing outputs : 10:29:18.987
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampA
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampB
+OutputID: O1
+OutputStartAddress: 0
+OutputBitAddress: 1
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 10:29:19.003
+-Start Time for writing inputs : 10:29:19.003
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT79
+InputName: sensor1
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: sensor2
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: sensor3
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 10:29:19.019
+-Start wait cycletime * ScalingFactor : 10:29:19.019
+-End wait cycletime * ScalingFactor : 10:29:19.021
+-Start Time for reading and comparing outputs : 10:29:19.021
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampA
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampB
+OutputID: O1
+OutputStartAddress: 0
+OutputBitAddress: 1
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 10:29:19.034
+-Start Time for writing inputs : 10:29:19.034
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT81
+InputName: sensor1
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: sensor2
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: sensor3
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 10:29:19.050
+-Start wait cycletime * ScalingFactor : 10:29:19.050
+-End wait cycletime * ScalingFactor : 10:29:19.052
+-Start Time for reading and comparing outputs : 10:29:19.052
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampA
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampB
+OutputID: O1
+OutputStartAddress: 0
+OutputBitAddress: 1
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 10:29:19.066
+-Start Time for writing inputs : 10:29:19.066
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT82
+InputName: sensor1
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: sensor2
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: sensor3
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 10:29:19.082
+-Start wait cycletime * ScalingFactor : 10:29:19.082
+-End wait cycletime * ScalingFactor : 10:29:19.084
+-Start Time for reading and comparing outputs : 10:29:19.084
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampA
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampB
+OutputID: O1
+OutputStartAddress: 0
+OutputBitAddress: 1
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 10:29:19.098
+-Start Time for writing inputs : 10:29:19.098
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT83
+InputName: sensor1
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: sensor2
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: sensor3
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 10:29:19.113
+-Start wait cycletime * ScalingFactor : 10:29:19.113
+-End wait cycletime * ScalingFactor : 10:29:19.116
+-Start Time for reading and comparing outputs : 10:29:19.116
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampA
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampB
+OutputID: O1
+OutputStartAddress: 0
+OutputBitAddress: 1
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 10:29:19.129
+-Start Time for writing inputs : 10:29:19.129
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT84
+InputName: sensor1
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: sensor2
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: sensor3
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 10:29:19.144
+-Start wait cycletime * ScalingFactor : 10:29:19.144
+-End wait cycletime * ScalingFactor : 10:29:19.146
+-Start Time for reading and comparing outputs : 10:29:19.146
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampA
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampB
+OutputID: O1
+OutputStartAddress: 0
+OutputBitAddress: 1
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 10:29:19.160
+-Start Time for writing inputs : 10:29:19.160
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT85
+InputName: sensor1
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: sensor2
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: sensor3
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 10:29:19.175
+-Start wait cycletime * ScalingFactor : 10:29:19.175
+-End wait cycletime * ScalingFactor : 10:29:19.177
+-Start Time for reading and comparing outputs : 10:29:19.177
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampA
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampB
+OutputID: O1
+OutputStartAddress: 0
+OutputBitAddress: 1
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 10:29:19.190
+-Start Time for writing inputs : 10:29:19.190
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT86
+InputName: sensor1
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: sensor2
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: sensor3
+Input Adress: 0
+Input BitAdress: 2
+Input Value: true
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 10:29:19.206
+-Start wait cycletime * ScalingFactor : 10:29:19.206
+-End wait cycletime * ScalingFactor : 10:29:19.208
+-Start Time for reading and comparing outputs : 10:29:19.208
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampA
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampB
+OutputID: O1
+OutputStartAddress: 0
+OutputBitAddress: 1
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 10:29:19.222
+Test for this path passed:
+-------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+test for path: [S0, sT0, S1, sT1, S2, sT2, S1, sT87, S1, sT88, S1, sT90, S1, sT91, S1, sT92, S1, sT93, S1, sT3, S0]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-Start Time for reading and comparing outputs : 10:29:19.222
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampA
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S0
+OutputName: lampB
+OutputID: O1
+OutputStartAddress: 0
+OutputBitAddress: 1
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 10:29:19.238
+-Start Time for writing inputs : 10:29:19.238
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT0
+InputName: sensor1
+Input Adress: 0
+Input BitAdress: 0
+Input Value: true
+InputName: sensor2
+Input Adress: 0
+Input BitAdress: 1
+Input Value: false
+InputName: sensor3
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 10:29:19.253
+-Start wait cycletime * ScalingFactor : 10:29:19.253
+-End wait cycletime * ScalingFactor : 10:29:19.255
+-Start Time for reading and comparing outputs : 10:29:19.255
+-------------------------------------------------------------
+StateID: S1
+OutputName: lampA
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: true
+OutputValueAfterTimeCondition: false
+PLCvalue: true
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S1
+OutputName: lampB
+OutputID: O1
+OutputStartAddress: 0
+OutputBitAddress: 1
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: false
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 10:29:19.269
+-Start Time for writing inputs : 10:29:19.269
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+TransitionID: sT1
+InputName: sensor1
+Input Adress: 0
+Input BitAdress: 0
+Input Value: false
+InputName: sensor2
+Input Adress: 0
+Input BitAdress: 1
+Input Value: true
+InputName: sensor3
+Input Adress: 0
+Input BitAdress: 2
+Input Value: false
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-End Time for writing inputs : 10:29:19.284
+-Start wait cycletime * ScalingFactor : 10:29:19.284
+-End wait cycletime * ScalingFactor : 10:29:19.286
+-Start Time for reading and comparing outputs : 10:29:19.286
+-------------------------------------------------------------
+StateID: S2
+OutputName: lampA
+OutputID: O0
+OutputStartAddress: 0
+OutputBitAddress: 0
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: true
+OutputValueAfterTimeCondition: false
+PLCvalue: true
+PLC value equal to Model value 
+-------------------------------------------------------------
+-------------------------------------------------------------
+StateID: S2
+OutputName: lampB
+OutputID: O1
+OutputStartAddress: 0
+OutputBitAddress: 1
+OutputInitialValue: false
+OutputValueBeforeTimeCondition: true
+OutputValueAfterTimeCondition: false
+PLCvalue: false
+PLC value not equal to Model value 
+-------------------------------------------------------------
+-End Time for reading and comparing outputs : 10:29:19.299
+Test for this path failed at stateID: S2
+-------------------------------------------------------------
